@@ -1,9 +1,5 @@
 using Lab2;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace Lab2
+namespace GameInventory
 {
     public class Inventory
     {
@@ -19,7 +15,7 @@ namespace Lab2
         {
             Item item = GetItem(name);
 
-            if (item is IUseable usable)
+            if (item is IUsable usable)
             {
                 usable.Activate();
                 items.Remove(item);

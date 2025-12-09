@@ -1,6 +1,6 @@
 namespace Lab2;
 
-public interface IUseable
+public interface IUsable
 {
     void Activate();
 }

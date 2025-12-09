@@ -2,8 +2,8 @@ namespace Lab2;
 
 public abstract class Item
 {
-    public required string Name { get; set; }
-    public required string Info { get; set; }
+    public string Name { get; set; }
+    public string Info { get; set; }
 
     protected Item(string name, string info)
     {
@@ -13,3 +13,4 @@ public abstract class Item
 
     public abstract void Activate();
 }
+

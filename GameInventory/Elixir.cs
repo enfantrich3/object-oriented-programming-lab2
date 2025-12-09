@@ -2,7 +2,7 @@ using Lab2;
 
 namespace GameInventory
 {
-    public class Elixir : Item, IUseable
+    public class Elixir : Item, IUsable
     {
         public string Effect { get; set; }
         private bool isUsed = false;

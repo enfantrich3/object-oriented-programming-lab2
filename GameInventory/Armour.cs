@@ -1,7 +1,7 @@
 using Lab2;
 namespace GameInventory;
 
-public class Armour : Item, IEquipable, IUseable
+public class Armour : Item, IEquipable, IUsable
 {
     public int Protection { get; set; }
 

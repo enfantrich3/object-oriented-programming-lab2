@@ -2,7 +2,7 @@ using Lab2;
 
 namespace GameInventory
 {
-    public class Weapon : Item, IEquipable, IUseable, IUpgrade
+    public class Weapon : Item, IEquipable, IUsable, IUpgrade
     {
         public int Damage { get; set; }
 
