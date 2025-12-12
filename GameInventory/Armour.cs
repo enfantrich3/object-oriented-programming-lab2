@@ -13,12 +13,12 @@ public class Armour : Item, IEquipable, IUsable
 
     public void Wear()
     {
-        System.Console.WriteLine($"Вы облачили {Name}. Теперь она дарует {Protection} единиц защиты от магических и физических ударов.");
+        Console.WriteLine($"Вы облачили {Name}. Теперь она дарует {Protection} единиц защиты от магических и физических ударов.");
     }
 
     public void Use()
     {
-        System.Console.WriteLine($"{Name} излучает ауру защиты, обеспечивая {Protection} очков защиты.");
+        Console.WriteLine($"{Name} излучает ауру защиты, обеспечивая {Protection} очков защиты.");
     }
 
     public override void Activate()
